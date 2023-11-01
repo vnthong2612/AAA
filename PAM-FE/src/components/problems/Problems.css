@@ -1,0 +1,109 @@
+#content{
+    margin: 30px;
+    width: 90%;
+    height: 100%;
+}
+.tabs{
+    border-bottom: 1px solid #cccccc;
+    width: 100%;
+    display: flex;
+}
+.tabs h2{
+    color: black;
+}
+h2{
+    font-weight: normal;
+    font-size: x-large;
+    border-radius: 4px;
+    margin: 0;
+    padding: 0;
+}
+#content-left{
+    width: 60%;
+    margin-right: 75px;
+    margin-top: 30px;
+}
+
+.h-scrollable-table{
+    overflow-x: auto;
+}
+.table{
+    border-spacing: 0;
+    width: 100%;
+    border-radius: 8px;
+
+}
+.table th{
+    background-color: #8a90b7;
+    color: white;
+    padding: 7px;
+}
+.table td {
+    padding: 10px;
+    text-align: center;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    color: darkgray;
+}
+.table tbody tr:nth-child(even) {
+    background-color: #f3f3f9;
+}
+a{
+    color: #1958c1;
+    text-decoration: none;
+}
+
+h3{
+    margin: 0;
+    padding: 10px 0 7px 0;
+    display: block;
+    color: #1958c1;
+    font-family: cursive;
+}
+p{
+    margin: 10px;
+    font-size: 20px;
+}
+.answer{
+    width: 500px;
+    height: 500px;
+    margin-left: 300px;
+}
+
+.entry{
+    padding: 10px;
+    border: solid 1px #cccccc;
+    margin: 10px auto;
+    box-shadow: 5px 5px 5px #cccccc;
+}
+.problems{
+    margin: 70px 90px;
+}
+.problem-content{
+    background-color: #fff;
+    font-size: 110%;
+    border: solid 1px #cccccc;
+    box-shadow: 5px 5px 5px #cccccc;
+    width: 1000px;
+
+}
+.problem-content p{
+    padding: 10px;
+
+    font-family: cursive;
+}
+
+.spinner {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #3498db;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

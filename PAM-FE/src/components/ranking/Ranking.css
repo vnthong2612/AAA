@@ -1,0 +1,48 @@
+.ranking-table {
+    width: 800px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+image{
+    display: inline;
+}
+.top{
+    width: 1100px;
+    margin-left: 150px;
+    display: block;
+    margin-top: 35px;
+}
+.ranking-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    color: darkgray;
+}
+.ranking-table th{
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    color: white;
+    background-color: #8a90b7;
+    font-weight: bold;
+}
+
+.ranking-table tbody tr:nth-child(even) {
+    background-color: #f3f3f9;
+}
+
+.ranking-table .ten{
+    color: red;
+    font-weight: bold;
+}
+
+.ranking-table .fifteen{
+    color: orange;
+    font-weight: bold;
+}
+
+.ranking-table .last {
+    color: green;
+}
